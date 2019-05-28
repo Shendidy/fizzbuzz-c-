@@ -11,7 +11,19 @@ int main()
   int i = 1;
 
   while (i <= number) {
-    cout << i << endl;
+    if(i % 15 == 0){
+      cout << "FizzBuzz" << endl;
+    }
+    else if(i % 5 == 0) {
+      cout << "Fizz" << endl;
+    }
+    else if(i % 3 == 0) {
+      cout << "Buzz" << endl;
+    }
+    else {
+      cout << i << endl;
+    }
+    
     i++;
   }
 

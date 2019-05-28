@@ -62,3 +62,8 @@ When you have a code to compile and run, click command+shift+B, and click 'build
 ./run
 ```
 This should run the application for you in the terminal.
+
+Reference:
+
+https://medium.com/gdplabs/build-and-debug-c-on-visual-studio-code-for-mac-77e05537105e
+

@@ -8,8 +8,12 @@ int main()
 
   cout << "Enter your number to use for FizzBuzz: ";
   cin >> number;
+  int i = 1;
 
-  cout << number * 2 << endl;
+  while (i <= number) {
+    cout << i << endl;
+    i++;
+  }
 
   return 0;
 }
